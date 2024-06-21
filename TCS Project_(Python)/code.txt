@@ -1,0 +1,64 @@
+int a = 4; # asdfasdf.....
+a += 1;
+func int func_name(int a,b,c,int d) {
+    a = (5b+2c)*8;
+    d = a * 6 - 7;
+    ret d;
+};
+a = func_name(2,3,6,8);
+--a;
+int b;
+b = 3 * -6;
+a = a / b;
+when (a > 3 and a >2){
+  a = a / 3;
+  break;
+}
+otherwise when(a >= d){      # => wrong
+  int word;
+  s = word + a*b*c;
+  continue;
+}
+otherwise when(a > 4 or a < 1){
+  a = a + 4;
+}
+otherwise when (a > 5) {
+  a = a + 4;
+}
+otherwise {
+  a = a + 4;
+};
+
+func int outterfunc() {
+
+    func int innerfunc(int x, a){
+         x = x * a;
+         ret x;
+    };
+
+    int x = 0;
+    iterate (int a = 0,a < 40,++a) {
+         temp = innerfunc(x,a);
+         a += 1;
+
+    ret temp;
+    };
+};
+
+temp = outterfunc();
+
+iterate (a = 0,a < 4 or a > 5,a++) {
+   a = 5-2;
+   when(a > 2) {
+   a = a * a * a * a;
+   break;
+   }
+   otherwise {
+     a = a - 1;
+     break;
+   };
+
+};
+iterate (int a = 0,a < 4 and a > -3,--a) {
+   a = 5-2;
+};
