@@ -1,3 +1,5 @@
+# A project on CRUD operations using frontend, frontend is made by PAGE GUI BUILDER
+
 import tkinter as tk
 import os.path
 
